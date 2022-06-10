@@ -4,14 +4,15 @@ public class first{
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Enter your first name :");
-        String firstname = input.next();
+        System.out.println("Enter first number :");
+        int firstnumber = input.nextInt();
 
-        System.out.println("Enter your last name");
-        String lastname = input.next();
-
-        System.out.println("your full name is"+firstname+" "+lastname);
-
+        System.out.println("Enter second number :");
+        int secondnumber = input.nextInt();
+        int z = firstnumber + secondnumber;
+        System.out.println("Total "+z);
+        
+    input.close();
 
      }
-}
+}   
