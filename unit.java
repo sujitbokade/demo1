@@ -1,15 +1,16 @@
 import java.util.Scanner;
 
-public class first{
+public class unit{
     public static void main(String[] args){
-        double feet;
-	double inches;
         Scanner input = new Scanner(System.in);
 
         System.out.println("Enter value of Inch :");
-        inches = input.nextdouble();
-	feet = inches / 12;
+        float Inch = input.nextFloat();
+	float feet = Inch / 12;
 
-        System.out.println(inches + "is"+ feet + "feet");
-        }
+        System.out.println( Inch + " " + "is"+" "+ feet +" "+ "feet");
+
+        
+            }
+
 }
