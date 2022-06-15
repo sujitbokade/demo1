@@ -10,7 +10,7 @@ public class unit{
 
         System.out.println( Inch + " " + "is"+" "+ feet +" "+ "feet");
 
-        
+        input.close();
             }
 
 }
