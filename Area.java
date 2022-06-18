@@ -1,8 +1,8 @@
-import java.util.Scanner;
+ import java.util.Scanner;
 
 public class Area{
        public static void main(String[] args){
-       Scanner input  = new Scanner(System.in);
+       try(Scanner input  = new Scanner(System.in);){
 
        System.out.println("Enter length of plot in Feet: ");
         double length = input.nextDouble();
@@ -13,7 +13,7 @@ public class Area{
 
       System.out.println("Area of rectangular in Square Meter:"+Area);
 
-
-
+  
+}
 }
 }
